@@ -1,0 +1,10 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+ bikeshare-function:
+    lang: csharp-kestrel
+    handler: ./bikeshare-function
+    image: andmos/bikeshare-function:latest
+    environment:
+      GBFSAddress: http://gbfs.urbansharing.com/trondheim/gbfs.json

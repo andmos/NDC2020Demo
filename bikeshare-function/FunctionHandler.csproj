@@ -6,7 +6,8 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-      <PackageReference Include="CsvHelper" Version="15.0.5" />
-      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="bikeshareclient" Version="3.2.0" />
+    <PackageReference Include="newtonsoft.json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 </Project>
